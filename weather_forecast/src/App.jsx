@@ -1,12 +1,15 @@
-// import { FaReact } from "react-icons/fa";
+
+
+import Locations from "./components/Locations"
 
 function App() {
-  
-
   return (
-    <div className="text-red-600 text-6xl">App 
-    {/* <h1><FaReact /></h1> */}
-    </div>
+
+   <div className="mx-auto max-w-screen-lg mt-4 py-5 px-32 bg-gradient-to-br shadow-xl shadow-gray-400 from bg-cyan-400 to to-blue-400">
+    
+    <Locations/>
+     
+   </div>
   )
 }
 
