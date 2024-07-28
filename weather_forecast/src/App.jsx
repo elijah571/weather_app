@@ -1,6 +1,7 @@
 
 import Input from "./components/Input"
 import Locations from "./components/Locations"
+import TimeAndLocations from "./components/TimeAndLocations"
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
     <Locations/>
     <Input/>
      
+
+    <TimeAndLocations/>
    </div>
   )
 }
